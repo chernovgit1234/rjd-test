@@ -24,5 +24,5 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Auth data
-email: usermail@gmail.com';
+email: 'usermail@gmail.com';
 password: '1234';
