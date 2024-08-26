@@ -1,0 +1,38 @@
+.btn {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 16px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.8px;
+  border: 1px solid #b7b4b4;
+  cursor: pointer;
+  background-color: #fff;
+}
+.btn:hover {
+  background-color: #efefef;
+  transition: all 0.3s ease 0s;
+}
+
+.loader {
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #1976d2;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+  
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+:root {
+  --light-border-color: #eceff1;
+}
